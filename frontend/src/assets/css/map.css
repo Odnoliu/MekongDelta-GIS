@@ -1,0 +1,102 @@
+
+.map-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.vn_baselayer-buttons {
+    position: absolute;
+    bottom: 110px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.vectorlayer-buttons {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.baselayer-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/* Nút đang được chọn sẽ có nền tối hơn */
+.btn-dark {
+    background-color: #343a40;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.btn-outline-dark {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-outline-dark:hover {
+    background-color: #f8f9fa;
+}
+
+.ol-attribution {
+    display: none !important;
+}
+
+.custom-select-wrapper {
+    position: absolute;
+    width: 13%;
+    bottom: 160px;
+    left: 10px;
+    z-index: 1000;
+
+}
+
+.custom-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.arrow {
+    font-size: 12px;
+}
+
+.options-list {
+    position: absolute;
+    bottom: 100%;
+    /* Đặt menu ở phía trên */
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* Đảm bảo dropdown-item có giao diện phù hợp */
+.dropdown-item {
+    cursor: pointer;
+}
+
+/* Tùy chỉnh khi option được chọn */
+.dropdown-item.active {
+    background-color: #0d6efd;
+    /* Màu primary của Bootstrap */
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.container-web{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.map {
+    height: 100vh;
+    width: 65vw;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    height: 100vh;
+    width: 35vw;
+}
+/* Header với nút Back Home */
+.header {
+    position: absolute;
+    bottom: 93%;
+    left: 10px;
+    z-index: 1000;
+}
